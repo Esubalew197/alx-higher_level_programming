@@ -22,4 +22,8 @@
 - How to convert a Python data structure to a JSON string
 - How to convert a JSON string to a Python data structure
 ## Tasks
-[0-read_file.py](0-read_file.py)
+  [0-read_file.py](0-read_file.py) Writes a function that reads a text file (UTF8) and prints it to stdout
+  - Prototype: def read_file(filename=""):
+  - You must use the with statement
+  - You don’t need to manage file permission or file doesn't exist exceptions.
+  - You are not allowed to import any module
