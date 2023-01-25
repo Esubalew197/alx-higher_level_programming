@@ -22,4 +22,4 @@
 - How to convert a Python data structure to a JSON string
 - How to convert a JSON string to a Python data structure
 ## Tasks
-0. [0x0B-python-input_output/0-read_file.py]
+[0-read_file.py](0x0B-python-input_output/0-read_file.py)
