@@ -1,4 +1,8 @@
--- Converts the entire database hbtn_0c_0 to UTF8.
-USE `hbtn_0c_0`
-ALTER TABLE `first_table`
-CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- Displays the 3 cities with the highest average
+-- temperatures between July and August.
+SELECT `city`, AVG(`value`) AS `avg_temp`
+FROM `temperatures`
+WHERE `month` = 7 OR `month` = 8
+GROUP BY `city`
+ORDER BY `avg_temp` DESC
+LIMIT 3;
